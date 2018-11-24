@@ -6,12 +6,12 @@
 
     <groupId>com.aiways</groupId>
     <artifactId>power-elasticsearch-utils</artifactId>
-    <version>1.0.0</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <nexus.url>maven.ai-ways.com</nexus.url>
-        <aiways-jest-utils-version>1.0.0</aiways-jest-utils-version>
+        <aiways-jest-utils-version>0.0.1-SNAPSHOT</aiways-jest-utils-version>
     </properties>
 
     <dependencies>
