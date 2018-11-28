@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e85c2ae0-63d8-4bd8-af83-9d6cb0944ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aiways/power/es/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/enums/PowerEsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/enums/PowerEsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/BatteryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/BatteryInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/ChargeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/ChargeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/VehicleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/VehicleInfo.java" afterDir="false" />
-    </list>
+    <list default="true" id="e85c2ae0-63d8-4bd8-af83-9d6cb0944ca6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +48,11 @@
     <session id="-1123109771">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -94,7 +86,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,8 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,7 +234,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,16 +306,17 @@
       <workItem from="1543388672029" duration="5162000" />
       <workItem from="1543397247586" duration="20000" />
       <workItem from="1543398751443" duration="599000" />
+      <workItem from="1543399625603" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12800000" />
+    <option name="totallyTimeSpent" value="12823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22671756" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23129772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
