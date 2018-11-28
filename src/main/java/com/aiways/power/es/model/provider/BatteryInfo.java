@@ -1,4 +1,4 @@
-package com.aiways.power.es.model;
+package com.aiways.power.es.model.provider;
 
 import java.util.List;
 
@@ -11,6 +11,8 @@ import java.util.List;
 public class BatteryInfo {
     private String batteryPackCode;//电池包编码
     private Integer capacity;//额定容量
+    private String model;//电池包型号
+    private String enterprise;//电池包生产厂家
     private List<Module> moduleList;//模块集合
 
     public String getBatteryPackCode() {
@@ -27,6 +29,22 @@ public class BatteryInfo {
 
     public void setCapacity(Integer capacity) {
         this.capacity = capacity;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getEnterprise() {
+        return enterprise;
+    }
+
+    public void setEnterprise(String enterprise) {
+        this.enterprise = enterprise;
     }
 
     public List<Module> getModuleList() {

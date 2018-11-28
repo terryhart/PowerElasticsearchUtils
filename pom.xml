@@ -11,6 +11,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <nexus.url>maven.ai-ways.com</nexus.url>
+        <elasticsearch.version>2.4.6</elasticsearch.version>
+        <searchbox.jest.version>5.3.3</searchbox.jest.version>
         <aiways-jest-utils-version>0.0.1-SNAPSHOT</aiways-jest-utils-version>
     </properties>
 

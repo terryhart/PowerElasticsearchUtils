@@ -1,8 +1,8 @@
 package com.aiways.power.es.enums;
 
-import com.aiways.power.es.model.BatteryInfo;
-import com.aiways.power.es.model.ChargeInfo;
-import com.aiways.power.es.model.VehicleInfo;
+import com.aiways.power.es.model.provider.BatteryInfo;
+import com.aiways.power.es.model.provider.ChargeInfo;
+import com.aiways.power.es.model.provider.VehicleInfo;
 
 /**
  * Created by Chris Chen

@@ -1,4 +1,4 @@
-package com.aiways.power.es.model;
+package com.aiways.power.es.model.provider;
 
 /**
  * Created by Chris Chen
