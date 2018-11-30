@@ -9,24 +9,48 @@ import java.util.List;
  */
 
 public class BatteryInfo {
+    private String tenantId;//租户ID
+    private String vin;//车辆vin
     private String batteryPackCode;//电池包编码
+    private Integer realCapacity;//实际容量
     private Integer capacity;//额定容量
-    private String model;//电池包型号
+    private String PackModel;//电池包型号
+    private String VehicleModel;//车辆型号
     private String enterprise;//电池包生产厂家
     private List<Module> moduleList;//模块集合
 
     public BatteryInfo() {
     }
 
-    public BatteryInfo(String batteryPackCode, Integer capacity, String model, String enterprise) {
+    public BatteryInfo(String tenantId, String vin, String batteryPackCode, Integer realCapacity, Integer capacity, String packModel, String vehicleModel, String enterprise) {
+        this.tenantId = tenantId;
+        this.vin = vin;
         this.batteryPackCode = batteryPackCode;
+        this.realCapacity = realCapacity;
         this.capacity = capacity;
-        this.model = model;
+        this.PackModel = packModel;
+        this.VehicleModel = vehicleModel;
         this.enterprise = enterprise;
     }
 
-    public static BatteryInfo create(String batteryPackCode, Integer capacity, String model, String enterprise) {
-        return new BatteryInfo(batteryPackCode, capacity, model, enterprise);
+    public static BatteryInfo create(String tenantId, String vin, String batteryPackCode, Integer realCapacity, Integer capacity, String packModel, String vehicleModel, String enterprise) {
+        return new BatteryInfo(tenantId, vin, batteryPackCode, realCapacity, capacity, packModel, vehicleModel, enterprise);
+    }
+
+    public String getTenantId() {
+        return tenantId;
+    }
+
+    public void setTenantId(String tenantId) {
+        this.tenantId = tenantId;
+    }
+
+    public String getVin() {
+        return vin;
+    }
+
+    public void setVin(String vin) {
+        this.vin = vin;
     }
 
     public String getBatteryPackCode() {
@@ -37,6 +61,14 @@ public class BatteryInfo {
         this.batteryPackCode = batteryPackCode;
     }
 
+    public Integer getRealCapacity() {
+        return realCapacity;
+    }
+
+    public void setRealCapacity(Integer realCapacity) {
+        this.realCapacity = realCapacity;
+    }
+
     public Integer getCapacity() {
         return capacity;
     }
@@ -45,12 +77,20 @@ public class BatteryInfo {
         this.capacity = capacity;
     }
 
-    public String getModel() {
-        return model;
+    public String getPackModel() {
+        return PackModel;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setPackModel(String packModel) {
+        PackModel = packModel;
+    }
+
+    public String getVehicleModel() {
+        return VehicleModel;
+    }
+
+    public void setVehicleModel(String vehicleModel) {
+        VehicleModel = vehicleModel;
     }
 
     public String getEnterprise() {
