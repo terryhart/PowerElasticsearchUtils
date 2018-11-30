@@ -7,9 +7,21 @@ package com.aiways.power.es.model.provider;
  */
 
 public class VehicleInfo {
-    private String id;
+    private transient String id;
     private String vin;
     private String model;
+
+    public VehicleInfo() {
+    }
+
+    public VehicleInfo(String vin, String model) {
+        this.vin = vin;
+        this.model = model;
+    }
+
+    public static VehicleInfo create(String vin, String model) {
+        return new VehicleInfo(vin, model);
+    }
 
     public String getId() {
         return id;

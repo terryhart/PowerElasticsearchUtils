@@ -15,6 +15,20 @@ public class BatteryInfo {
     private String enterprise;//电池包生产厂家
     private List<Module> moduleList;//模块集合
 
+    public BatteryInfo() {
+    }
+
+    public BatteryInfo(String batteryPackCode, Integer capacity, String model, String enterprise) {
+        this.batteryPackCode = batteryPackCode;
+        this.capacity = capacity;
+        this.model = model;
+        this.enterprise = enterprise;
+    }
+
+    public static BatteryInfo create(String batteryPackCode, Integer capacity, String model, String enterprise) {
+        return new BatteryInfo(batteryPackCode, capacity, model, enterprise);
+    }
+
     public String getBatteryPackCode() {
         return batteryPackCode;
     }

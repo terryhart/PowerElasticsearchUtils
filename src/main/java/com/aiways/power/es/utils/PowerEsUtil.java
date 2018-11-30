@@ -126,7 +126,7 @@ public class PowerEsUtil {
      * @return
      */
     public static <T> PageData<T> search(EsSearchParams params, Class<T> clazz) {
-        return ESUtils.esSearch(PowerEsUtil.jestClient, params, clazz);
+        return ESUtils.searchPage(PowerEsUtil.jestClient, params, clazz);
     }
 
     /**
@@ -136,7 +136,7 @@ public class PowerEsUtil {
      * @return
      */
     public static SearchResult searchResult(EsSearchParams params) {
-        return ESUtils.esSearchResult(PowerEsUtil.jestClient, params);
+        return ESUtils.searchResult(PowerEsUtil.jestClient, params);
     }
 
 
