@@ -125,8 +125,20 @@ public class PowerEsUtil {
      * @param <T>
      * @return
      */
-    public static <T> PageData<T> search(EsSearchParams params, Class<T> clazz) {
+    public static <T> PageData<T> searchPage(EsSearchParams params, Class<T> clazz) {
         return ESUtils.searchPage(PowerEsUtil.jestClient, params, clazz);
+    }
+
+    /**
+     * 搜索列表数据
+     *
+     * @param params
+     * @param clazz
+     * @param <T>
+     * @return
+     */
+    public static <T> List<T> searchList(EsSearchParams params, Class<T> clazz) {
+        return ESUtils.searchList(PowerEsUtil.jestClient, params, clazz);
     }
 
     /**
