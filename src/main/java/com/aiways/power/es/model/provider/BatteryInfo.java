@@ -12,8 +12,8 @@ public class BatteryInfo {
     private String tenantId;//租户ID
     private String vin;//车辆vin
     private String batteryPackCode;//电池包编码
-    private Integer realCapacity;//实际容量
-    private Integer capacity;//额定容量
+    private Double realCapacity;//实际容量
+    private Double capacity;//额定容量
     private String PackModel;//电池包型号
     private String VehicleModel;//车辆型号
     private String enterprise;//电池包生产厂家
@@ -22,7 +22,7 @@ public class BatteryInfo {
     public BatteryInfo() {
     }
 
-    public BatteryInfo(String tenantId, String vin, String batteryPackCode, Integer realCapacity, Integer capacity, String packModel, String vehicleModel, String enterprise) {
+    public BatteryInfo(String tenantId, String vin, String batteryPackCode, Double realCapacity, Double capacity, String packModel, String vehicleModel, String enterprise) {
         this.tenantId = tenantId;
         this.vin = vin;
         this.batteryPackCode = batteryPackCode;
@@ -33,7 +33,7 @@ public class BatteryInfo {
         this.enterprise = enterprise;
     }
 
-    public static BatteryInfo create(String tenantId, String vin, String batteryPackCode, Integer realCapacity, Integer capacity, String packModel, String vehicleModel, String enterprise) {
+    public static BatteryInfo create(String tenantId, String vin, String batteryPackCode, Double realCapacity, Double capacity, String packModel, String vehicleModel, String enterprise) {
         return new BatteryInfo(tenantId, vin, batteryPackCode, realCapacity, capacity, packModel, vehicleModel, enterprise);
     }
 
@@ -61,19 +61,19 @@ public class BatteryInfo {
         this.batteryPackCode = batteryPackCode;
     }
 
-    public Integer getRealCapacity() {
+    public Double getRealCapacity() {
         return realCapacity;
     }
 
-    public void setRealCapacity(Integer realCapacity) {
+    public void setRealCapacity(Double realCapacity) {
         this.realCapacity = realCapacity;
     }
 
-    public Integer getCapacity() {
+    public Double getCapacity() {
         return capacity;
     }
 
-    public void setCapacity(Integer capacity) {
+    public void setCapacity(Double capacity) {
         this.capacity = capacity;
     }
 
