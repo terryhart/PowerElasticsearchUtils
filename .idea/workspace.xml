@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e85c2ae0-63d8-4bd8-af83-9d6cb0944ca6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/consts/EsFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/consts/EsIndexType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/BatteryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/BatteryInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/VehicleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/VehicleInfo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,26 +53,26 @@
     <session id="-1123109771">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="10" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="12" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="21" />
+          <entry key="java" value="29" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="29" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="5" />
         </counts>
@@ -78,13 +80,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="40" />
-          <entry key="java" value="858" />
+          <entry key="java" value="878" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="858" />
+          <entry key="JAVA" value="878" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="XML" value="3" />
         </counts>
@@ -92,7 +94,26 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/BatteryInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/ChargeInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,6 +121,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_INDEX</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,10 +146,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/consumer/AlertItem.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/aiways/power/es/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/VehicleInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiways/power/es/enums/PowerEsEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiways/power/es/utils/PowerEsUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/BatteryInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiways/power/es/consts/EsIndexType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/VehicleInfo.java" />
       </list>
     </option>
   </component>
@@ -153,12 +180,90 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PowerElasticsearchUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PowerElasticsearchUtils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PowerElasticsearchUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PowerElasticsearchUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PowerElasticsearchUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PowerElasticsearchUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PowerElasticsearchUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PowerElasticsearchUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PowerElasticsearchUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PowerElasticsearchUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PowerElasticsearchUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PowerElasticsearchUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+              <item name="consts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PowerElasticsearchUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PowerElasticsearchUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PowerElasticsearchUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PowerElasticsearchUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PowerElasticsearchUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PowerElasticsearchUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543805897301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543981203348" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataAggMockClient" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -170,6 +275,7 @@
       <recent name="com.aiways.power.es.model.consumer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\DevStudio\github\chrischendev\PowerElasticsearchUtils\src\main\java\com\aiways\power\es\consts" />
       <recent name="G:\git\WorkPlatForm\WayLike\AI-ways\Ai-ways-API\OtherModules\PowerElasticsearchUtils\src\main\java\com\aiways\power\es\utils" />
       <recent name="G:\git\WorkPlatForm\WayLike\AI-ways\Ai-ways-API\OtherModules\PowerElasticsearchUtils\src\main\java\com\aiways\power\es\model" />
     </key>
@@ -233,16 +339,21 @@
       <workItem from="1543572103644" duration="2019000" />
       <workItem from="1543801030098" duration="1367000" />
       <workItem from="1543817003698" duration="1317000" />
+      <workItem from="1543919584726" duration="42000" />
+      <workItem from="1543978020666" duration="1835000" />
+      <workItem from="1543988773394" duration="632000" />
+      <workItem from="1543991024662" duration="349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25537000" />
+    <option name="totallyTimeSpent" value="28395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3778626" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24885496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,24 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/VehicleInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/ChargeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -381,16 +474,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiways/power/es/consts/EsFields.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiways/power/es/consts/EsIndexType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/ChargeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/VehicleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aiways/power/es/model/provider/BatteryInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="1134">
           <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1889#1890#0" expanded="true" />
-            <element signature="e#1946#1947#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

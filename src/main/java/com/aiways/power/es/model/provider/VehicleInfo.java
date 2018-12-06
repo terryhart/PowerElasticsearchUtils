@@ -8,19 +8,21 @@ package com.aiways.power.es.model.provider;
 
 public class VehicleInfo {
     private transient String id;
+    private String tenantId;
     private String vin;
     private String model;
 
     public VehicleInfo() {
     }
 
-    public VehicleInfo(String vin, String model) {
+    public VehicleInfo(String tenantId, String vin, String model) {
+        this.tenantId = tenantId;
         this.vin = vin;
         this.model = model;
     }
 
-    public static VehicleInfo create(String vin, String model) {
-        return new VehicleInfo(vin, model);
+    public static VehicleInfo create(String tenantId, String vin, String model) {
+        return new VehicleInfo(tenantId, vin, model);
     }
 
     public String getId() {
@@ -29,6 +31,14 @@ public class VehicleInfo {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getTenantId() {
+        return tenantId;
+    }
+
+    public void setTenantId(String tenantId) {
+        this.tenantId = tenantId;
     }
 
     public String getVin() {
