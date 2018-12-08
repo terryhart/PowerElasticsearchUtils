@@ -40,7 +40,7 @@ public class PowerEsUtil {
      */
     public static void createJestClient(String serverUri, int timeout) {
         JestClient jestClient = JestUtil.createJestClient(serverUri, timeout);
-        PowerEsUtil.jestClient = jestClient;
+        init(jestClient);
     }
 
     /**

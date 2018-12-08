@@ -1,5 +1,6 @@
 package com.aiways.power.es.enums;
 
+import com.aiways.power.es.consts.EsIndexType;
 import com.aiways.power.es.model.provider.BatteryInfo;
 import com.aiways.power.es.model.provider.ChargeInfo;
 import com.aiways.power.es.model.provider.VehicleInfo;
@@ -11,8 +12,8 @@ import com.aiways.power.es.model.provider.VehicleInfo;
  */
 
 public enum PowerEsEnum {
-    VEHICLE_INFO("vehicle_info", "vehicle_info", "车辆", VehicleInfo.class.getName()),
-    BATTERY_INFO("battery_info", "battery_info", "电池包", BatteryInfo.class.getName()),
+    VEHICLE_INFO(EsIndexType.VEHICLE_INFO, EsIndexType.VEHICLE_INFO, "车辆", VehicleInfo.class.getName()),
+    BATTERY_INFO(EsIndexType.BATTERY_INFO, EsIndexType.VEHICLE_INFO, "电池包", BatteryInfo.class.getName()),
     CHARGE_INFO("charge_info", "charge_info", "充电桩", ChargeInfo.class.getName());
 
     private String index;
